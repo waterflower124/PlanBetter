@@ -3,10 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B27C035EB749642D44AA60D /* Pods_PlanBetterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFE35A59FE623F1C4612A35 /* Pods_PlanBetterTests.framework */; };
+		B009E246238403B1000A3130 /* PartyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B009E245238403B1000A3130 /* PartyTableViewCell.swift */; };
+		B009E2A72384CF82000A3130 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B009E2A62384CF82000A3130 /* GoogleService-Info.plist */; };
+		B01A364A2382A3CC0003C24C /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = B01A36492382A3CC0003C24C /* background.png */; };
+		B01A366E2382AEB10003C24C /* GuestListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01A366D2382AEB10003C24C /* GuestListViewController.swift */; };
+		B01A36702382AF5F0003C24C /* ExpensesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01A366F2382AF5F0003C24C /* ExpensesListViewController.swift */; };
+		B01A36722382B34F0003C24C /* AddGuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01A36712382B34F0003C24C /* AddGuestViewController.swift */; };
+		B01A36742382D0170003C24C /* AddExpensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01A36732382D0170003C24C /* AddExpensesViewController.swift */; };
 		B04F7342237CFE2C0020A97D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04F7341237CFE2C0020A97D /* AppDelegate.swift */; };
 		B04F7344237CFE2C0020A97D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04F7343237CFE2C0020A97D /* SceneDelegate.swift */; };
 		B04F7346237CFE2C0020A97D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04F7345237CFE2C0020A97D /* ViewController.swift */; };
@@ -15,6 +23,22 @@
 		B04F734E237CFE2E0020A97D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B04F734C237CFE2E0020A97D /* LaunchScreen.storyboard */; };
 		B04F7359237CFE2F0020A97D /* PlanBetterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04F7358237CFE2F0020A97D /* PlanBetterTests.swift */; };
 		B04F7364237CFE2F0020A97D /* PlanBetterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04F7363237CFE2F0020A97D /* PlanBetterUITests.swift */; };
+		B04F7373237D01620020A97D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04F7372237D01620020A97D /* HomeViewController.swift */; };
+		B05056002390CB8A00CD7BBF /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05055FF2390CB8A00CD7BBF /* Global.swift */; };
+		B0AB9362237D0B6F00D0A990 /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB9361237D0B6F00D0A990 /* CreateEventViewController.swift */; };
+		B0AB9364237D33A300D0A990 /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB9363237D33A300D0A990 /* EventListViewController.swift */; };
+		B0AB93C12380982000D0A990 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB93C02380982000D0A990 /* MainTabBarController.swift */; };
+		B0AB93C32380AC0600D0A990 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB93C22380AC0600D0A990 /* ToDoListViewController.swift */; };
+		B0AB93C52380BE2A00D0A990 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB93C42380BE2A00D0A990 /* AddToDoViewController.swift */; };
+		B0B357D2238D287900079861 /* ToDoListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B357D1238D287900079861 /* ToDoListTableViewCell.swift */; };
+		B0B357D4238D3A6000079861 /* EditToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B357D3238D3A6000079861 /* EditToDoViewController.swift */; };
+		B0B357D6238DE2F200079861 /* GuestListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B357D5238DE2F200079861 /* GuestListTableViewCell.swift */; };
+		B0B357D8238E0A3500079861 /* ExpenseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B357D7238E0A3500079861 /* ExpenseTableViewCell.swift */; };
+		B0B357DA238F1D7500079861 /* ShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B357D9238F1D7500079861 /* ShoppingListViewController.swift */; };
+		B0B357DC238F2CDA00079861 /* ShoppingListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B357DB238F2CDA00079861 /* ShoppingListTableViewCell.swift */; };
+		B0B357DE238F32FF00079861 /* AddShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B357DD238F32FF00079861 /* AddShoppingListViewController.swift */; };
+		E79E91EE44B65499A6EE36EA /* Pods_PlanBetter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEDCE019FBA3E402DF753A6 /* Pods_PlanBetter.framework */; };
+		EDAF3B2B8572E9038CC0B059 /* Pods_PlanBetter_PlanBetterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927BB3E16B131A8D12DE611E /* Pods_PlanBetter_PlanBetterUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +59,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B04F733E237CFE2C0020A97D /* PlanBetter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanBetter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		502477E1F3578DFF5ECF9B28 /* Pods-PlanBetter-PlanBetterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanBetter-PlanBetterUITests.debug.xcconfig"; path = "Target Support Files/Pods-PlanBetter-PlanBetterUITests/Pods-PlanBetter-PlanBetterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FEDCE019FBA3E402DF753A6 /* Pods_PlanBetter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanBetter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DAAC38EC94B5E50BDF06313 /* Pods-PlanBetter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanBetter.debug.xcconfig"; path = "Target Support Files/Pods-PlanBetter/Pods-PlanBetter.debug.xcconfig"; sourceTree = "<group>"; };
+		927BB3E16B131A8D12DE611E /* Pods_PlanBetter_PlanBetterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanBetter_PlanBetterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A547DDA247EA4936EF7BD865 /* Pods-PlanBetterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanBetterTests.debug.xcconfig"; path = "Target Support Files/Pods-PlanBetterTests/Pods-PlanBetterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B009E245238403B1000A3130 /* PartyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyTableViewCell.swift; sourceTree = "<group>"; };
+		B009E2A62384CF82000A3130 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B01A36492382A3CC0003C24C /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		B01A366D2382AEB10003C24C /* GuestListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestListViewController.swift; sourceTree = "<group>"; };
+		B01A366F2382AF5F0003C24C /* ExpensesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesListViewController.swift; sourceTree = "<group>"; };
+		B01A36712382B34F0003C24C /* AddGuestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGuestViewController.swift; sourceTree = "<group>"; };
+		B01A36732382D0170003C24C /* AddExpensesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpensesViewController.swift; sourceTree = "<group>"; };
+		B04F733E237CFE2C0020A97D /* Plan Better.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plan Better.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B04F7341237CFE2C0020A97D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B04F7343237CFE2C0020A97D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B04F7345237CFE2C0020A97D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +85,24 @@
 		B04F735F237CFE2F0020A97D /* PlanBetterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanBetterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B04F7363237CFE2F0020A97D /* PlanBetterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanBetterUITests.swift; sourceTree = "<group>"; };
 		B04F7365237CFE2F0020A97D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B04F7372237D01620020A97D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B05055FF2390CB8A00CD7BBF /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		B0AB9361237D0B6F00D0A990 /* CreateEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
+		B0AB9363237D33A300D0A990 /* EventListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
+		B0AB93C02380982000D0A990 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		B0AB93C22380AC0600D0A990 /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
+		B0AB93C42380BE2A00D0A990 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
+		B0B357D1238D287900079861 /* ToDoListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListTableViewCell.swift; sourceTree = "<group>"; };
+		B0B357D3238D3A6000079861 /* EditToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditToDoViewController.swift; sourceTree = "<group>"; };
+		B0B357D5238DE2F200079861 /* GuestListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestListTableViewCell.swift; sourceTree = "<group>"; };
+		B0B357D7238E0A3500079861 /* ExpenseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTableViewCell.swift; sourceTree = "<group>"; };
+		B0B357D9238F1D7500079861 /* ShoppingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListViewController.swift; sourceTree = "<group>"; };
+		B0B357DB238F2CDA00079861 /* ShoppingListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListTableViewCell.swift; sourceTree = "<group>"; };
+		B0B357DD238F32FF00079861 /* AddShoppingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddShoppingListViewController.swift; sourceTree = "<group>"; };
+		C10D843181F534A14A35DBA4 /* Pods-PlanBetter-PlanBetterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanBetter-PlanBetterUITests.release.xcconfig"; path = "Target Support Files/Pods-PlanBetter-PlanBetterUITests/Pods-PlanBetter-PlanBetterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DC9553A5287E0AEA98D10E25 /* Pods-PlanBetter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanBetter.release.xcconfig"; path = "Target Support Files/Pods-PlanBetter/Pods-PlanBetter.release.xcconfig"; sourceTree = "<group>"; };
+		FE75DFE389A8D8470D55CFCA /* Pods-PlanBetterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanBetterTests.release.xcconfig"; path = "Target Support Files/Pods-PlanBetterTests/Pods-PlanBetterTests.release.xcconfig"; sourceTree = "<group>"; };
+		FFFE35A59FE623F1C4612A35 /* Pods_PlanBetterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanBetterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E79E91EE44B65499A6EE36EA /* Pods_PlanBetter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B27C035EB749642D44AA60D /* Pods_PlanBetterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +126,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDAF3B2B8572E9038CC0B059 /* Pods_PlanBetter_PlanBetterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		92726D8104F32F77D9DA3060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FEDCE019FBA3E402DF753A6 /* Pods_PlanBetter.framework */,
+				927BB3E16B131A8D12DE611E /* Pods_PlanBetter_PlanBetterUITests.framework */,
+				FFFE35A59FE623F1C4612A35 /* Pods_PlanBetterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1F83CE5B9712B51CDEE8C98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DAAC38EC94B5E50BDF06313 /* Pods-PlanBetter.debug.xcconfig */,
+				DC9553A5287E0AEA98D10E25 /* Pods-PlanBetter.release.xcconfig */,
+				502477E1F3578DFF5ECF9B28 /* Pods-PlanBetter-PlanBetterUITests.debug.xcconfig */,
+				C10D843181F534A14A35DBA4 /* Pods-PlanBetter-PlanBetterUITests.release.xcconfig */,
+				A547DDA247EA4936EF7BD865 /* Pods-PlanBetterTests.debug.xcconfig */,
+				FE75DFE389A8D8470D55CFCA /* Pods-PlanBetterTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B009E244238400AE000A3130 /* tableviewcell */ = {
+			isa = PBXGroup;
+			children = (
+				B009E245238403B1000A3130 /* PartyTableViewCell.swift */,
+				B0B357D1238D287900079861 /* ToDoListTableViewCell.swift */,
+				B0B357D5238DE2F200079861 /* GuestListTableViewCell.swift */,
+				B0B357D7238E0A3500079861 /* ExpenseTableViewCell.swift */,
+				B0B357DB238F2CDA00079861 /* ShoppingListTableViewCell.swift */,
+			);
+			path = tableviewcell;
+			sourceTree = "<group>";
+		};
 		B04F7335237CFE2C0020A97D = {
 			isa = PBXGroup;
 			children = (
@@ -83,13 +175,15 @@
 				B04F7357237CFE2F0020A97D /* PlanBetterTests */,
 				B04F7362237CFE2F0020A97D /* PlanBetterUITests */,
 				B04F733F237CFE2C0020A97D /* Products */,
+				A1F83CE5B9712B51CDEE8C98 /* Pods */,
+				92726D8104F32F77D9DA3060 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		B04F733F237CFE2C0020A97D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B04F733E237CFE2C0020A97D /* PlanBetter.app */,
+				B04F733E237CFE2C0020A97D /* Plan Better.app */,
 				B04F7354237CFE2F0020A97D /* PlanBetterTests.xctest */,
 				B04F735F237CFE2F0020A97D /* PlanBetterUITests.xctest */,
 			);
@@ -99,6 +193,11 @@
 		B04F7340237CFE2C0020A97D /* PlanBetter */ = {
 			isa = PBXGroup;
 			children = (
+				B05055FE2390CB1C00CD7BBF /* utils */,
+				B009E2A62384CF82000A3130 /* GoogleService-Info.plist */,
+				B009E244238400AE000A3130 /* tableviewcell */,
+				B0AB93C62382377F00D0A990 /* assets */,
+				B04F7371237D01390020A97D /* screens */,
 				B04F7341237CFE2C0020A97D /* AppDelegate.swift */,
 				B04F7343237CFE2C0020A97D /* SceneDelegate.swift */,
 				B04F7345237CFE2C0020A97D /* ViewController.swift */,
@@ -128,6 +227,42 @@
 			path = PlanBetterUITests;
 			sourceTree = "<group>";
 		};
+		B04F7371237D01390020A97D /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				B04F7372237D01620020A97D /* HomeViewController.swift */,
+				B0AB9361237D0B6F00D0A990 /* CreateEventViewController.swift */,
+				B0AB9363237D33A300D0A990 /* EventListViewController.swift */,
+				B0AB93C02380982000D0A990 /* MainTabBarController.swift */,
+				B0AB93C22380AC0600D0A990 /* ToDoListViewController.swift */,
+				B0AB93C42380BE2A00D0A990 /* AddToDoViewController.swift */,
+				B01A366D2382AEB10003C24C /* GuestListViewController.swift */,
+				B01A366F2382AF5F0003C24C /* ExpensesListViewController.swift */,
+				B01A36712382B34F0003C24C /* AddGuestViewController.swift */,
+				B01A36732382D0170003C24C /* AddExpensesViewController.swift */,
+				B0B357D3238D3A6000079861 /* EditToDoViewController.swift */,
+				B0B357D9238F1D7500079861 /* ShoppingListViewController.swift */,
+				B0B357DD238F32FF00079861 /* AddShoppingListViewController.swift */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		B05055FE2390CB1C00CD7BBF /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				B05055FF2390CB8A00CD7BBF /* Global.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		B0AB93C62382377F00D0A990 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				B01A36492382A3CC0003C24C /* background.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +270,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B04F7368237CFE2F0020A97D /* Build configuration list for PBXNativeTarget "PlanBetter" */;
 			buildPhases = (
+				A47734393F50A333229A2F0D /* [CP] Check Pods Manifest.lock */,
 				B04F733A237CFE2C0020A97D /* Sources */,
 				B04F733B237CFE2C0020A97D /* Frameworks */,
 				B04F733C237CFE2C0020A97D /* Resources */,
+				D9846D9BB4928C9DBAE5DCDC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -145,13 +282,14 @@
 			);
 			name = PlanBetter;
 			productName = PlanBetter;
-			productReference = B04F733E237CFE2C0020A97D /* PlanBetter.app */;
+			productReference = B04F733E237CFE2C0020A97D /* Plan Better.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B04F7353237CFE2F0020A97D /* PlanBetterTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B04F736B237CFE2F0020A97D /* Build configuration list for PBXNativeTarget "PlanBetterTests" */;
 			buildPhases = (
+				E4357A24DDCE79FBDB812BA2 /* [CP] Check Pods Manifest.lock */,
 				B04F7350237CFE2F0020A97D /* Sources */,
 				B04F7351237CFE2F0020A97D /* Frameworks */,
 				B04F7352237CFE2F0020A97D /* Resources */,
@@ -170,9 +308,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B04F736E237CFE2F0020A97D /* Build configuration list for PBXNativeTarget "PlanBetterUITests" */;
 			buildPhases = (
+				3922D965ABD657F81D08B9AD /* [CP] Check Pods Manifest.lock */,
 				B04F735B237CFE2F0020A97D /* Sources */,
 				B04F735C237CFE2F0020A97D /* Frameworks */,
 				B04F735D237CFE2F0020A97D /* Resources */,
+				8F4B90173C26D0923EF41BD6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +373,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B04F734E237CFE2E0020A97D /* LaunchScreen.storyboard in Resources */,
+				B01A364A2382A3CC0003C24C /* background.png in Resources */,
+				B009E2A72384CF82000A3130 /* GoogleService-Info.plist in Resources */,
 				B04F734B237CFE2E0020A97D /* Assets.xcassets in Resources */,
 				B04F7349237CFE2C0020A97D /* Main.storyboard in Resources */,
 			);
@@ -254,14 +396,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3922D965ABD657F81D08B9AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlanBetter-PlanBetterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F4B90173C26D0923EF41BD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlanBetter-PlanBetterUITests/Pods-PlanBetter-PlanBetterUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlanBetter-PlanBetterUITests/Pods-PlanBetter-PlanBetterUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlanBetter-PlanBetterUITests/Pods-PlanBetter-PlanBetterUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A47734393F50A333229A2F0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlanBetter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9846D9BB4928C9DBAE5DCDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlanBetter/Pods-PlanBetter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlanBetter/Pods-PlanBetter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlanBetter/Pods-PlanBetter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4357A24DDCE79FBDB812BA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlanBetterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B04F733A237CFE2C0020A97D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0AB93C32380AC0600D0A990 /* ToDoListViewController.swift in Sources */,
 				B04F7346237CFE2C0020A97D /* ViewController.swift in Sources */,
+				B0B357DA238F1D7500079861 /* ShoppingListViewController.swift in Sources */,
+				B0B357D4238D3A6000079861 /* EditToDoViewController.swift in Sources */,
+				B0AB9364237D33A300D0A990 /* EventListViewController.swift in Sources */,
+				B0B357DC238F2CDA00079861 /* ShoppingListTableViewCell.swift in Sources */,
+				B05056002390CB8A00CD7BBF /* Global.swift in Sources */,
 				B04F7342237CFE2C0020A97D /* AppDelegate.swift in Sources */,
+				B009E246238403B1000A3130 /* PartyTableViewCell.swift in Sources */,
+				B0AB93C52380BE2A00D0A990 /* AddToDoViewController.swift in Sources */,
+				B0AB93C12380982000D0A990 /* MainTabBarController.swift in Sources */,
+				B0B357D2238D287900079861 /* ToDoListTableViewCell.swift in Sources */,
+				B01A36742382D0170003C24C /* AddExpensesViewController.swift in Sources */,
+				B0AB9362237D0B6F00D0A990 /* CreateEventViewController.swift in Sources */,
+				B01A366E2382AEB10003C24C /* GuestListViewController.swift in Sources */,
+				B0B357D8238E0A3500079861 /* ExpenseTableViewCell.swift in Sources */,
+				B01A36702382AF5F0003C24C /* ExpensesListViewController.swift in Sources */,
+				B0B357D6238DE2F200079861 /* GuestListTableViewCell.swift in Sources */,
+				B0B357DE238F32FF00079861 /* AddShoppingListViewController.swift in Sources */,
 				B04F7344237CFE2C0020A97D /* SceneDelegate.swift in Sources */,
+				B04F7373237D01620020A97D /* HomeViewController.swift in Sources */,
+				B01A36722382B34F0003C24C /* AddGuestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +696,7 @@
 		};
 		B04F7369237CFE2F0020A97D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DAAC38EC94B5E50BDF06313 /* Pods-PlanBetter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -440,15 +705,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.waterflower.chaoyu.PlanBetter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moattar.PlanBetter;
+				PRODUCT_NAME = "Plan Better";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B04F736A237CFE2F0020A97D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC9553A5287E0AEA98D10E25 /* Pods-PlanBetter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,15 +723,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.waterflower.chaoyu.PlanBetter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moattar.PlanBetter;
+				PRODUCT_NAME = "Plan Better";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		B04F736C237CFE2F0020A97D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A547DDA247EA4936EF7BD865 /* Pods-PlanBetterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +754,7 @@
 		};
 		B04F736D237CFE2F0020A97D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE75DFE389A8D8470D55CFCA /* Pods-PlanBetterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +776,7 @@
 		};
 		B04F736F237CFE2F0020A97D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 502477E1F3578DFF5ECF9B28 /* Pods-PlanBetter-PlanBetterUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +796,7 @@
 		};
 		B04F7370237CFE2F0020A97D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C10D843181F534A14A35DBA4 /* Pods-PlanBetter-PlanBetterUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
